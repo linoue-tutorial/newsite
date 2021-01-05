@@ -1,0 +1,102 @@
+/* ajouts de linoue */
+
+/* COLORS */
+
+/* CSS HEX 
+--jet: #333333;
+--dark-blue-gray: #666a86;
+--pale-cerulean: #95b8d1;
+--dutch-white: #e8ddb5;
+--light-pink: #edafb8;
+*/
+/* SCSS RGBa 
+--jet: rgba(51, 51, 51, 1);
+--dark-blue-gray: rgba(102, 106, 134, 1);
+--pale-cerulean: rgba(149, 184, 209, 1);
+--dutch-white: rgba(232, 221, 181, 1);
+--light-pink: rgba(237, 175, 184, 1);
+*/
+
+header {
+  background-color: #95b8d1;
+  text-align: left;
+  height: 200px;
+}
+
+nav {
+  height: 200px;
+}
+
+/* navigation 
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: #d6d6d6;
+  padding: 10px 20px;
+  text-decoration: none;
+  width: 125px;
+  position: relative;
+}
+
+nav ul li:hover {
+  color: #fff;
+  background-color: #474747;
+}
+
+nav ul li a:visited: {
+  color: #d6d6d6;
+}
+
+nav ul li a:visited:hover {
+  color: #fff;
+}
+
+nav > ul > li {
+  float: left;
+}
+nav > ul > li > a {
+  width: auto;
+  padding: 10px 20 px 15px 20px;
+}
+*/
+/*
+nav::after { content:''; display: block; clear: both; }
+
+nav a.mobile_menu {
+    width: 32px; height: 32px;
+    background: url(../images/icon_menu.svg) no-repeat 0 0;
+    background-size: contain;
+    position: absolute; top: 22px; left: 50%; margin-left: -16px;
+    display: none;
+}
+
+nav ul ul {position: absolute; top: 100%; background-color: #2b0306; display: none;}
+
+nav ul ul li {position: relative;}
+nav ul ul ul {left: 100%; top: 0px;}
+
+nav a[aria-haspopup='true']::after {
+    content:'';
+    display: block; width: 0px; height: 0px;
+    position: absolute;
+    top: 16px; right: 15px;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #fff;
+
+}
+
+nav > ul > li > a[aria-haspopup='true']::after {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #fff;
+    left: 20px; right: auto;
+    bottom: 6px; top:auto;
+    
+      }
+*/
